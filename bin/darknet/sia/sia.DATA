@@ -1,0 +1,5 @@
+classes = 3
+train = dynamic/train_.txt
+valid = dynamic/train_.txt
+names = sia/sia.names
+backup = backup_05/

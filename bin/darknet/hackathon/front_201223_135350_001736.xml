@@ -1,0 +1,26 @@
+<annotation>
+  <folder>hackathon_pic</folder>
+  <filename>front_201223_135350_001736.jpg</filename>
+  <path>/content/drive/MyDrive/Colab Notebooks/darknet/bin/darknet/hackathon_pic</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>pedestrian</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>416</xmin>
+      <ymin>539</ymin>
+      <xmax>455</xmax>
+      <ymax>680</ymax>
+    </bndbox>
+  </object>
+</annotation>
