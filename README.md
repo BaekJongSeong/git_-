@@ -68,17 +68,16 @@ https://drive.google.com/file/d/1Y5JP2bn2I-Woqwsi-qhSs3WmGtKlwmov/view
   + 각 bounding box마다의 좌표들을 image size 1920x1080에 대한 0~1 사이의 범위로 scaling 하는 과정 거침
   ### + Yolo(You Only Look Once)를 사용하기 위해서 json 파일을 txt 파일로 변환.
 
-+ tensorflow 파일 구성 핵심
-  + Core
-    + backbone.py
-    + common.py
-    + config.py
-    + dataset.py
-    + utils.py
-    + yolov4.py
-  + detect.py
-  + save_model.py
-  + train.py
++ darknet yolov4 핵심 구성 파일
+ + sia
+	+ data
+	+ names
+	+ cfg
+	+ weight
+ + dynamic
+	+ train_.txt
+	+ png
+	+ txt
 ---
  + cfg 파일
     + Subdivision = 64 (1 epoch 당 batch size)
